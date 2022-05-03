@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container,
+.result {
+    margin-top: 2em;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 5em;
+}
+.launch {
+    padding: 1em;
+    border: none;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
